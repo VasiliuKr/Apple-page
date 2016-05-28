@@ -1,0 +1,269 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+body {
+	width: 100%;
+	height: 100%;
+}
+ul {
+	list-style-position: inside;
+}
+ul li {
+	list-style-type: none;
+}
+.content {
+	width: 980px;
+	margin: 0 auto;
+}
+.blue-link {
+	color: #08c;
+}
+.blue-link:hover {
+	text-decoration: underline;
+}
+.clearfix {
+	clear: both;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+/* Top navigation menu */
+.top-nav {
+	background-color: #333;
+	background: linear-gradient(#828c95, #333);
+	height: 44px;
+}
+.top-nav-list {
+	text-align: justify;
+}
+.top-nav-list::after {
+	display: inline-block;
+	content: "";
+	width: 100%;
+	height: 0;
+}
+.top-nav-list li {
+	display: inline-block;
+}
+.top-nav-svg {
+	display: block;
+	height: 44px;
+	background-repeat: no-repeat;
+}
+.top-nav-svg:hover {
+	opacity: .65;
+}
+.apple-svg {
+	background-image: url('images/apple.svg');
+	width: 20px;
+}
+.mac-svg {
+	background-image: url('images/mac.svg');
+	width: 30px;
+}
+.ipad-svg {
+	background-image: url('images/ipad.svg');
+	width: 30px;
+}
+.iphone-svg {
+	background-image: url('images/iphone.svg');
+	width: 48px;
+}
+.watch-svg {
+	background-image: url('images/watch.svg');
+	width: 44px;
+}
+.tv-svg {
+	background-image: url('images/tv.svg');
+	width: 20px;
+}
+.music-svg {
+	background-image: url('images/music.svg');
+	width: 40px;
+}
+.support-svg {
+	background-image: url('images/support.svg');
+	width: 57px;
+}
+.search-svg {
+	background-image: url('images/search.svg');
+	width: 20px;
+}
+.bag-svg {
+	background-image: url('images/bag.svg');
+	width: 20px;
+}
+
+/* Jumbotron */
+
+.product-name {
+	background-image: url('images/iphone_6s_text.png');
+	height: 40px;
+	width: 205px;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+.product-text {
+	font: 300 28px Arial;
+	text-align: center;
+	color: #333;
+	padding-top: 13px;
+	margin-bottom: 40px;
+}
+.hero-image {
+	background-image: url('images/iphone_6s.jpg');
+	height: 349px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+/* Promo row */
+
+.promos ul li {
+	float: left;
+	margin-right: 2px;
+}
+.promo {
+	display: block;
+	min-height: 200px;
+	width: 335px;
+}
+.promo-1 {
+	background-image: url('images/promo_iphone.jpg');
+}
+.promo-2 {
+	background-image: url('images/promo_macbook.jpg');
+}
+.promo-3 {
+	background-image: url('images/promo_tv.jpg');
+}
+.promo-4 {
+	background-image: url('images/promo_accessories.jpg');
+}
+
+/* Redcross banner */
+
+.redcross-banner {
+	position: relative;
+	width: 520px;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.redcross-image {
+	background-image: url('images/redcross_banner.jpg');
+	height: 44px;
+	background-repeat: no-repeat;
+	width: 40%;
+	float: left;
+	padding-right: 10px;
+	border-right: 1px solid #ccc;
+}
+.banner-text {
+	padding-left: 10px;
+	width: 60%;
+	float: left;
+	font: normal 16px Arial;
+	padding-top: 12px;
+}
+.empty {
+	height: 383px;
+}
+
+/* Footer */
+.footer {
+	background-color: #f2f2f2;
+	height: 383px;
+	margin-top: -383px;
+	position: relative;
+}
+.footer-nav {
+	
+}
+.footer-nav-column {
+	display: inline-block;
+	width: 19%;
+	vertical-align: top;
+}
+.column-title {
+	padding-top: 30px;
+	font: 600 11px Arial;
+	color: #333;
+	line-height: 20px;
+}
+.footer-nav-column ul li a {
+	font: normal 11px Arial;
+	color: #333;
+	line-height: 20px;
+}
+.footer-nav-column ul li a:hover {
+	text-decoration: underline;
+}
+.legal {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.shop,.legal {
+	font: normal 11px Arial;
+	color: #333;
+}
+.shop {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.copyright,.legal-links,.legal-links ul li,.local {
+	display: inline-block;
+}
+.legal-links ul li {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #ccc;
+}
+.legal a {
+	font: normal 11px Arial;
+	color: #333;
+	line-height: 20px;
+}
+.legal a:hover {
+	text-decoration: underline;
+}
+.local {
+	float: right;
+}
+.local-country {
+	vertical-align: top;
+}
+.local-flag {
+	background-image: url('images/us_flag.png');
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+}
